@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>OBJECTS.</h1>
+    <h3>//Q1.Create a Function.</h3> <br>
+    function Check(obj1){ <br>
+  
+  
+  obj1.setter=function(){ <br>
+    console.log(obj1.name); <br>
+  }  <br>
+} <br>
+
+<h3>//Q2.Delete a Property.</h3> <br>
+function Check(obj1) { <br>
+   delete obj1.rollno; <br>
+   return delete obj1.rollno; <br>
+} <br>
+
+<h3>//Q3.Check whether the Package is Dream Package or not.</h3> <br>
+function Check(obj1) { <br>
+   if(obj1.salary>500000){ <br>
+     return "Dream"; <br>
+   }  <br>
+   else{ <br>
+     return "NotDream"; <br>
+   } <br>
+
+}  <br>
+
+<h3>//Q4.Check whether the Object has a parameter or not.</h3> <br>
+function Check(obj1) { <br>
+  let count=0; <br>
+  for(let key in obj1){ <br>
+    count++; <br>
+  } <br>
+  return count>0; <br>
+} <br>
+
+<h3>//Q5.Merge the Objects.</h3> <br>
+function Check(obj1,obj2) { <br>
+    obj1.state=obj2.state; <br>
+    obj1.code=obj2.code; <br>
+    return obj1; <br>
+  } <br>
+
+  <h3>//Q6.Object Multiplyer.</h3> <br>
+  function Check(a,obj1) { <br>
+    obj1.id=obj1.id*2; <br>
+    obj1.houseno=obj1.houseno*2; <br>
+    return obj1; <br>
+} <br>
+
+<h3>//Q7.Find the Sum of Data Members.</h3> <br>
+function Check(obj1) { <br>
+    let sum = obj1.p1 + obj1.p2 + obj1.p3; <br>
+    return sum; <br>
+} <br>
+
+<h3>//Q8.Check whether the Objects are same or not.</h3> <br>
+function check(obj1,a,b) { <br>
+          
+    return obj1.name===a && obj1.id===b; <br>
+
+}
+
+
+    
+  
+
+
+
+
+</body>
+</html>
